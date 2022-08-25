@@ -1,6 +1,121 @@
 *{
-          margin: 0;
-          box-sizing: border-box;
-      }
-      /* Your code goes here */
-      
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: #23cece;
+height: 100vh;
+}
+/* Your code goes here */
+#headline{
+padding: 30px;
+background-color: #ffeb3b;
+display: flex;
+flex-direction: row;
+/* align-content: space-around; */
+justify-content: space-around;
+/* align-content: space-around; */
+height: 80px;
+}
+
+
+
+div#content {
+display: flex;
+height: calc(100% - 100px);
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+div#lcontent {
+display: flex;
+width: 50%;
+position: relative;
+flex-direction: column;
+}
+
+#sample{
+height: 100%;
+background-color: #23cece;
+position: relative;
+display: block;
+}
+
+#bodyline{
+font-size: 18px;
+/* top: 200px; */
+display: flex;
+/* justify-content: flex-end; */
+flex-direction: row;
+margin-top: 100px;
+}
+
+#leftdiv{
+/* position: absolute; */
+/* bottom: 100px; */
+/* left: 36px; */
+font-size: 18px;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+#heading{
+/* position: absolute; */
+/* bottom: 150px; */
+/* left: 36px; */
+font-size: 18px;
+/* top: 191px; */
+font-size: xxx-large;
+font-color: white;
+font-family:
+italic;
+margin-top: 80px;
+}
+
+#para{
+font-size: medium;
+}
+.box{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#wifibutton{
+/* position: absolute; */
+/* bottom: 150px; */
+/* font-size: 18px; */
+/* top: 20px; */
+/* right: 250px; */
+}
+
+#card1{
+/* position: absolute; */
+/* bottom: 150px; */
+/* font-size: 18px; */
+/* top: 100px; */
+/* right: 250px; */
+}
+
+#cart1{
+/* position: absolute; */
+/* bottom: 150px; */
+/* font-size: 18px; */
+/* top: 150px; */
+/* right: 250px; */
+}
+
+#images{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#rimage{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
